@@ -1,0 +1,4 @@
+# Core requirements for using this application
+
+Django
+django-model-utils>=2.0   # Utils for Django models
