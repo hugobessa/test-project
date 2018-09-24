@@ -7,7 +7,7 @@ DEBUG = True
 USE_TZ = True
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "=v#2%r&6@7jp3$72ke=2lwf_^)jwjr^s+r@t6$ydc*f0035blg"
+SECRET_KEY = "hi_&7p8gz3^^0%admcnybb#w_uv-pud8vliou37t0iat(enhn!"
 
 DATABASES = {
     "default": {
