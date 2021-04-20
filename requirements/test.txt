@@ -4,21 +4,25 @@
 #
 #    pip-compile --output-file requirements/test.txt requirements/base.in requirements/test.in
 #
-atomicwrites==1.2.1       # via pytest
-attrs==18.2.0             # via pytest
-certifi==2018.8.24        # via requests
-chardet==3.0.4            # via requests
+certifi==2018.8.24
+    # via requests
+chardet==3.0.4
+    # via requests
 codecov==2.0.15
+    # via -r test.in
 coverage==4.4.1
-django-model-utils==3.1.2
-idna==2.7                 # via requests
+    # via
+    #   -r test.in
+    #   codecov
+idna==2.7
+    # via requests
 mock==2.0.0
-more-itertools==4.3.0     # via pytest
-pbr==4.2.0                # via mock
-pluggy==0.7.1             # via pytest
-py==1.6.0                 # via pytest
-pytest==3.8.1
-pytz==2018.5              # via django
-requests==2.19.1          # via codecov
-six==1.11.0               # via mock, more-itertools, pytest
-urllib3==1.23             # via requests
+    # via -r test.in
+pbr==4.2.0
+    # via mock
+requests==2.19.1
+    # via codecov
+six==1.11.0
+    # via mock
+urllib3==1.23
+    # via requests
